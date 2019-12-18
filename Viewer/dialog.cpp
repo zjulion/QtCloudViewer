@@ -115,16 +115,16 @@ Dialog::Dialog(QWidget *parent)
 
 		right_layout->addStretch();
 
-		// Eagle Part
-		auto group = new QGroupBox;
-		right_layout->addWidget(group);
-		group->setTitle("Eagle Fly");
-		group->setLayout(new QVBoxLayout);
-		group->layout()->addWidget(new QLabel("Closed"));
-		btn = new QPushButton(this);
-		btn->setText(QStringLiteral("打开相机"));
-		group->layout()->addWidget(btn);
-		// to do: add slots
+		//// Eagle Part
+		//auto group = new QGroupBox;
+		//right_layout->addWidget(group);
+		//group->setTitle("Eagle Fly");
+		//group->setLayout(new QVBoxLayout);
+		//group->layout()->addWidget(new QLabel("Closed"));
+		//btn = new QPushButton(this);
+		//btn->setText(QStringLiteral("打开相机"));
+		//group->layout()->addWidget(btn);
+		//// to do: add slots
 
 
 

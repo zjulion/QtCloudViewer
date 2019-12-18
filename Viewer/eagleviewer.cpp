@@ -81,11 +81,11 @@ void Viewer::draw()
     glEnd();  
 
 
-	// -- test axis
-	glPushMatrix();
-	glTranslatef(0.2f, 0.2f, 0.1f);
-	drawAxis();
-	glPopMatrix();
+	//// -- test axis
+	//glPushMatrix();
+	//glTranslatef(0.2f, 0.2f, 0.1f);
+	//drawAxis();
+	//glPopMatrix();
 }
 
 void Viewer::init() 
