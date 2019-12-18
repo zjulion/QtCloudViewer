@@ -5,7 +5,8 @@
 #include <pcl/common/common_headers.h>
 #include <pcl/common/transforms.h>
 #include <pcl/point_types.h>   
-#include <>
+#include <pcl/point_cloud.h>
+
 typedef pcl::PointXYZRGB ColorPoint;
 typedef pcl::PointCloud<ColorPoint> ColorCloud;
 
@@ -26,9 +27,7 @@ private:
 	std::mutex		data_mutex;
 
 	QTimer	*timer;
-
-	// thread to start openning eagle camera
-	int start_eagle();
+ 
 
 	int point_size;
 
