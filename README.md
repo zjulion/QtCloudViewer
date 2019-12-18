@@ -6,7 +6,7 @@
 ![截图](snapshot.jpg "snapshot")
 
 ## Dependency
-- [CMake](cmake.org)
-- [PCL](pointclouds.org)
+- [CMake](https://cmake.org)
+- [PCL](https://pointclouds.org)
 - [Qt >= 5.1](https://download.qt.io/official_releases/)
 - (*Important) [libglviewer](http://libqglviewer.com). This project use only basic functional of libglviewer, in the 'QGLViewer' folder.
