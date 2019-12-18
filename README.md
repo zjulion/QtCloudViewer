@@ -1,4 +1,4 @@
-# QtCloudViewer: A light-weighted tools for visulizing Point Cloud by PCL and Qt
+# QtCloudViewer: A light-weighted tools for visulizing Point Cloud by CMake, libglviewer, PCL and Qt
 
 ## 主要功能
 - 主线程显示点云
@@ -6,6 +6,7 @@
 ![截图](snapshot.jpg "snapshot")
 
 ## Dependency
+- [CMake](cmake.org)
 - [PCL](pointclouds.org)
 - [Qt >= 5.1](https://download.qt.io/official_releases/)
 - (*Important) [libglviewer](http://libqglviewer.com). This project use only basic functional of libglviewer, in the 'QGLViewer' folder.
